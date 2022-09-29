@@ -1,25 +1,26 @@
 
 public class Rectangle {
-	Point leftTop, rightBottom;
-		
-	Rectangle(Point a, Point b){
-		this.leftTop = a;
-		this.rightBottom = b;
-	}
+    private Point leftTop;
+    private Point rightBottom;
 
-	int rectWidth(){
-		return rightBottom.x - leftTop.x;
-	}
+    public Rectangle(Point a, Point b) {
+        this.leftTop = a;
+        this.rightBottom = b;
+    }
 
-	int rectHeight() {
-		return rightBottom.y - leftTop.y;
-	}
+    public int setRectWidth() {
+        return rightBottom.getPointX() - leftTop.getPointX();
+    }
 
-	int rectCumference(int a, int b) {
-		return 2*(a+b);
-	}
-	
-	int rectArea(int a, int b) {
-		return a*b;
-	}
+    public int setRectHeight() {
+        return rightBottom.getPointY() - leftTop.getPointY();
+    }
+
+    public int rectCumference(int a, int b) {
+        return 2 * (a + b);
+    }
+
+    public int rectArea(int a, int b) {
+        return a * b;
+    }
 }
