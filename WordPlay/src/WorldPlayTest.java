@@ -2,7 +2,6 @@
  * 자바 스터디 첫 과제
  * 끝말잇기 프로그램
  * 남기철
- *
  */
 
 import java.util.Scanner;
