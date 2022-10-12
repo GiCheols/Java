@@ -1,7 +1,5 @@
-package ex;
-
+package ex.lotto;
 import ex.lotto.Lotto;
-
 import java.util.Scanner;
 
 public class LottoCard {

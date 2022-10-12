@@ -1,12 +1,11 @@
 package ex.hw;
-import ex.LottoCard;
-
+import ex.lotto.LottoCard;
 import java.util.Scanner;
 
 public class LottoSim {
     public static void main(String[] args) {
         Scanner s = new Scanner(System.in);
-        System.out.print("로또 복권의 매수 입력");
+        System.out.print("로또 복권의 매수 입력>> ");
         LottoCard[] c = new LottoCard[s.nextInt()];
 
         for(int i = 0; i < c.length; i++){

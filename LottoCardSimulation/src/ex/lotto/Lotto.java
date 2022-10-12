@@ -1,5 +1,4 @@
 package ex.lotto;
-
 import java.util.Random;
 import java.util.Scanner;
 
