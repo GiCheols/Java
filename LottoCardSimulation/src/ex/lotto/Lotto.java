@@ -5,10 +5,9 @@ import java.util.Scanner;
 public class Lotto {
     private int[] lottoNumber;
     private boolean isValid;
-    Scanner s = new Scanner(System.in);
-
 
     public Lotto(int[] lottoNumber) {
+        Scanner s = new Scanner(System.in);
         this.lottoNumber = lottoNumber;
         System.out.println("6개의 숫자를 스페이스바로 구분하여 입력");
         for (int i = 0; i < lottoNumber.length; i++) {
@@ -26,12 +25,10 @@ public class Lotto {
             for (int j = i + 1; j < lottoNumber.length; j++) {
                 if (lottoNumber[i] == lottoNumber[j] ||
                         lottoNumber[i] < 1 || lottoNumber[i] > 46) {
-                    isValid = false;
                     return false;
                 }
             }
         }
-        isValid = true;
         return true;
     }
 
@@ -43,7 +40,7 @@ public class Lotto {
     }
 
     public void show() {
-        verify(lottoNumber);
+        isValid = verify(lottoNumber);
         if (isValid) {
             for (int i = 0; i < getNumbers().length; i++) {
                 System.out.print(lottoNumber[i] + " ");
@@ -55,7 +52,8 @@ public class Lotto {
     }
 
     public int[] getNumbers() {
-        if (verify(lottoNumber)) {
+        isValid = verify(lottoNumber);
+        if (isValid) {
             return lottoNumber;
         }
         return null;
