@@ -2,6 +2,7 @@ import hw.account.*;
 
 public class Bank {
     public static void main(String[] args) {
+        Account arr = new Account("01", "남기철", 200000);
         Account[] aArr = new Account[5];
         aArr[0] = new Account("01", "남기철", 200000);
         aArr[1] = new CheckingAccount("02", "홍길동"
