@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="aed81bfa-495a-4013-9b62-c907c43480de" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/InputTest.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../BankAccount/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../BankAccount/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../BankAccount/out/production/BankAccount/Bank.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../BankAccount/out/production/BankAccount/hw/account/Account.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../BankAccount/out/production/BankAccount/hw/account/Account.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../BankAccount/src/Bank.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../BankAccount/src/Bank.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../BankAccount/src/hw/account/Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../BankAccount/src/hw/account/Account.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LottoCardSimulation/out/production/LottoCardSimulation/ex/lotto/Lotto.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../LottoCardSimulation/out/production/LottoCardSimulation/ex/lotto/Lotto.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LottoCardSimulation/src/ex/lotto/Lotto.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../LottoCardSimulation/src/ex/lotto/Lotto.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2Gf3aRrgAe8HDvXEkeHTTHqX19v" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="aed81bfa-495a-4013-9b62-c907c43480de" name="Changes" comment="" />
+      <created>1666765873903</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1666765873903</updated>
+      <workItem from="1666765875694" duration="1443000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
