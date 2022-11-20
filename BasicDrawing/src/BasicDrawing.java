@@ -14,7 +14,7 @@ public class BasicDrawing extends JFrame {
     }
 
     private void buildGUI() {
-        LogicalFontTestCanvas drawingCanvas = new LogicalFontTestCanvas();
+        BasicCanvas drawingCanvas = new BasicCanvas();
         add(drawingCanvas);
     }
 
@@ -52,6 +52,7 @@ public class BasicDrawing extends JFrame {
             g.drawLine(50, 180, 350, 180);
         }
         */
+
 
         public void paint(Graphics g) {
             Color c = new Color(255, 0, 0, 128);
