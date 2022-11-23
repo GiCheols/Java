@@ -24,8 +24,9 @@ public class JDialogTest extends JFrame {
             @Override
             public void actionPerformed(ActionEvent e) {
                 JMyDialog dlg = new JMyDialog(JDialogTest.this);
-                dlg.setVisible(true);
+                dlg.setVisible(true);   // 이 구문 없으면 대화상자 나타나지 않음
 
+                // 아래 코드는 대화상자가 "닫혀야만" 실행됨
                 String input = dlg.getInput();
                 if(input != null)
                     System.out.println(input);
@@ -48,6 +49,7 @@ public class JDialogTest extends JFrame {
             setLocation(loc.x + 50, loc.y + 70);
             pack();
             setDefaultCloseOperation(JDialog.DISPOSE_ON_CLOSE);
+            // 대화상자만 종료되도록 옵션 설정
         }
 
         private void buildGUI(){
@@ -63,6 +65,7 @@ public class JDialogTest extends JFrame {
                 @Override
                 public void actionPerformed(ActionEvent e) {
                     setVisible(false);
+                    // 비활성화
                 }
             });
         }
