@@ -66,4 +66,8 @@ public class MenuAndFileDialogEx extends JFrame {
             pack();
         }
     }
+
+    public static void main(String[] args) {
+        new MenuAndFileDialogEx();
+    }
 }

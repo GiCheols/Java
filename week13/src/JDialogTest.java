@@ -41,6 +41,7 @@ public class JDialogTest extends JFrame {
         private JButton btn;
 
         JMyDialog(JFrame f){
+            // modal: true 이면 창을 닫기 전까지 다른 창을 건들 수 없음
             super(f, "MyDialog", true);
 
             buildGUI();
