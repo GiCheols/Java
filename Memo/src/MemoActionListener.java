@@ -25,7 +25,7 @@ public class MemoActionListener implements ActionListener {
                 if(memo.fileName.equals("")){
                     int ret = memo.fileChooser.showSaveDialog(null);
 
-                    if(ret != memo.fileChooser.APPROVE_OPTION){
+                    if(ret != JFileChooser.APPROVE_OPTION){
                         JOptionPane.showMessageDialog(null,
                                 "파일을 선택하지 않았습니다.",
                                 "경고", JOptionPane.WARNING_MESSAGE);
