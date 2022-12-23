@@ -172,11 +172,11 @@ public class Main {
     }
 
     String usingFont = "Serif";
-    Font dodum = new Font("돋움", Font.PLAIN, 12);
+    Font dodUm = new Font("돋움", Font.PLAIN, 12);
     Font gothic = new Font("고딕", Font.PLAIN, 12);
     Font clearGothic = new Font("맑은 고딕", Font.PLAIN, 12);
     public void createNewFont(int fontSize){
-        dodum = new Font("돋움", Font.PLAIN, fontSize);
+        dodUm = new Font("돋움", Font.PLAIN, fontSize);
         gothic = new Font("고딕", Font.PLAIN, fontSize);
         clearGothic = new Font("맑은 고딕", Font.PLAIN, fontSize);
 
@@ -188,7 +188,7 @@ public class Main {
 
         switch (usingFont){
             case "돋움":
-                textArea.setFont(dodum);
+                textArea.setFont(dodUm);
                 break;
             case "고딕":
                 textArea.setFont(gothic);
